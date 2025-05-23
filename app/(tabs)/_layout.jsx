@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
-import React from "react";
-import { StyleSheet } from "react-native";
+
+import "../global.css";
 
 export default function _layout() {
   return (
@@ -11,5 +11,3 @@ export default function _layout() {
     </>
   );
 }
-
-const styles = StyleSheet.create({});
